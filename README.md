@@ -1,1 +1,1 @@
-
+Metodos Numericos Evidencia Final Metodo de Newton Raphson, está hecho en html y javascript, utilizando math.js y mostrando al usuario las iteraciones necesarias hasta que el porcentaje de error sea cero, el usuario solo tiene que ingresar una función, su valor en x y math.js se encargará de derivarla.
