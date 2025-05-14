@@ -1,0 +1,87 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h3{
+    color: fuchsia;
+}
+.contenedor {
+  background-color: #fff0f5;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ffb6c1;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: white;
+  color: #d63384;
+  border: 2px solid #d63384;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #fce4ec;
+}
+
+p#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #c2185b;
+}
+
+/* Resultados paso a paso */
+#resultado {
+  margin-top: 20px;
+  text-align: left;
+  background-color: #fff5fa;
+  padding: 20px;
+  border-radius: 10px;
+  color: #880e4f;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+  border: 1px solid #f8bbd0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Estilo por paso */
+.paso {
+  border-left: 4px solid #f06292;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* Resultado final */
+.final {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ad1457;
+}
+
+/* Mensaje de error */
+.error {
+  color: red;
+  font-weight: bold;
+}
